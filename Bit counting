@@ -1,0 +1,18 @@
+function rangeBitCount(a, b) {
+  let array = [];
+  let binary;
+  let total = 0;
+  for (let i = a; i <= b; i++) {
+    array.push(i);
+  }
+  binary = array.map((x) => x.toString(2));
+  let string = binary.join("");
+  let arrays = string.split("");
+  arrays.forEach(function (x) {
+    if (x == "1") {
+      total++;
+    }
+  });
+  return total;
+}
+// https://www.codewars.com/kata/58845748bd5733f1b300001f/train/javascript
