@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/58845748bd5733f1b300001f/train/javascript
+
 function rangeBitCount(a, b) {
   let array = [];
   let binary;
@@ -15,4 +17,3 @@ function rangeBitCount(a, b) {
   });
   return total;
 }
-// https://www.codewars.com/kata/58845748bd5733f1b300001f/train/javascript

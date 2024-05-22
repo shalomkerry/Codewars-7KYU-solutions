@@ -1,0 +1,16 @@
+// https://www.codewars.com/kata/563fb342f47611dae800003c/train/javascript
+
+function trim(str, size) {
+  let final = "";
+  if (str.length <= size) return str;
+  if (str.length > size) {
+    if (size <= 3) {
+      return str.substring(0, size) + "...";
+    }
+
+    for (let i = 0; i < size - 3; i++) {
+      final += str[i];
+    }
+    return final + "...";
+  }
+}
