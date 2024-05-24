@@ -1,0 +1,5 @@
+const binaryArrayToNumber = arr => {
+  let sum = 0;
+let number = arr.reduce((a,i) =>sum+=a*Math.pow(2,i))
+return number;
+};
