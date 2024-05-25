@@ -12,6 +12,6 @@ function sortArea(array) {
     }
     shapeswithArea.sort((a, b) => a.area - b.area);
   });
-  console.log(shapeswithArea.map((item) => item.shape));
+  return shapeswithArea.map((item) => item.shape);
 }
 sortArea([[4, 6], [1, 3], 2, 3, 10, [5, 7]]);
