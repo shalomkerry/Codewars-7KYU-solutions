@@ -47,8 +47,6 @@ function sortVegetables(string) {
     finalAnswer.push([element.quantity, element.name]);
   });
 
-  let news = [];
-  finalAnswer.forEach((x) => news.push([x.quantity, x.name]));
   console.log(finalAnswer);
 }
 sortVegetables(
