@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/55b75fcf67e558d3750000a3/train/javascript
 function ballTest(s, r) {
   let crack = [...r.slice(0, s)].filter((element) => element == "x").length;
   if (s <= 0) {
